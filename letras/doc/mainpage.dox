@@ -1,0 +1,57 @@
+/**
+@mainpage Práctica final de la asignatura *Estructura de Datos*.
+
+@section intro Introducción
+
+Este proyecto da vida al juego de Letras.
+
+@subsection intro_letras Juego de las Letras
+
+En esta parte se generan tantas letras aleatorias como indique el usuario, y
+este deberá introducir una palabra que considere ganadora a partir de las mismas, usando
+cada una un máximo de una vez.
+
+El programa valida la palabra introducida y calcula las soluciones óptimas, presentándoselas
+al usuario.
+
+Existen dos modalidades
+
+@subsubsection intro_letras_l L: longitud
+Consideraremos en esta modalidad ganadoras las palabras más largas.
+
+@subsubsection intro_letras_p P: puntuación
+Consideraremos en esta modalidad ganadoras las cuyas letras sumen más puntos.
+Nótese que como parámetro se pasa un archivo de letras donde a cada letra
+se le corresponde una puntuación.
+
+@subsubsection implementaciones Este proyecto implementa:
+
+- TDA Dictionary
+- TDA LettersSet
+    - TDA LettersInfo
+- TDA LettersBag
+
+@subsubsection ejecutables Ejecutables:
+
+- bolsa
+- bolsa_letras
+- cantidad_letras
+- conjunto_letras
+- palabras_longitud
+- generador_letras
+- letras
+
+@subsubsection ia Uso de IA:
+En esta práctica hemos usado la IA para investigar cómo implementar la generación
+aleatoria de números en C++ y para estudiar la viabilidad del uso de masks (aprendidos
+en la asignatura Sistemas Operativos) para la generación de combinaciones sin repetición.
+Por otra parte, nos ha servido de apoyo para preparar los archivos Doxyfile.in
+y mainpage.dox.
+
+
+@section autores Autores
+
+Andrés Fernández Cervell – Universidad de Granada\n
+Miguel Crespo Orti – Universidad de Granada
+
+*/

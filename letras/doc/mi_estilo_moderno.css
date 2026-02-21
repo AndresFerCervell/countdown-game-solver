@@ -1,0 +1,86 @@
+/* -- mi_estilo_moderno.css -- */
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Contenedor principal de la página, para darle un aspecto de "tarjeta" */
+#doc-content {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Área del título del proyecto */
+#projectname {
+    font-size: 2.8em;
+    font-weight: 700;
+    color: #ff0000;
+    margin-bottom: 5px;
+}
+
+#projectbrief {
+    font-size: 1.2em;
+    color: #ea8585;
+    margin-top: 0;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #810000;
+}
+
+/* Título de la página principal (mainpage.dox: @mainpage) */
+.headertitle .title {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #495057;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #ced4da;
+}
+
+/* Estilos para las secciones generadas (H1, H2, H3) */
+.contents h1, .contents h2, .contents h3 {
+    color: #343a40;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.contents h1 {
+    font-size: 2.2em;
+    border-bottom: 3px solid #adb5bd;
+}
+
+.contents h2 {
+    font-size: 1.6em;
+    color: #007bff;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.contents h3 {
+    font-size: 1.2em;
+    color: #495057;
+    margin-top: 25px;
+}
+
+/* Estilos para listas y párrafos */
+.contents ul {
+    list-style: square;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.contents p {
+    margin-bottom: 15px;
+}
+
+/* Resaltar texto en cursiva (@em) */
+.contents em {
+    font-style: italic;
+    color: #dc3545;
+}
