@@ -46,28 +46,29 @@ cmake ..
 make
 Once compiled, the executables will be located in the bin/ directory. You can run them from the root of the letras folder as follows:
 
-A. The Main Game (letras) Plays the Countdown letters game. Requires the dictionary file, the letters file, the number of random letters to generate, and the game mode (L for longest word, P for highest score).
+#### A. The Main Game (letras) Plays the Countdown letters game. Requires the dictionary file, the letters file, the number of random letters to generate, and the game mode (L for longest word, P for highest score).
 
 Example:
 
 
 ./bin/letras ./data/diccionario.txt ./data/letras.txt 8 L
-B. Dictionary Test (testdiccionario) Loads the dictionary into memory and allows querying words of a specific length or checking word existence.
+#### B. Dictionary Test (testdiccionario) Loads the dictionary into memory and allows querying words of a specific length or checking word existence.
 
 Example:
 
 
 ./bin/testdiccionario ./data/diccionario.txt
-C. Letter Frequency Calculator (cantidad_letras) Reads the dictionary, calculates the frequency of each letter, and assigns a rarity score (1-10), outputting the result to a new file.
+
+#### C. Letter Frequency Calculator (cantidad_letras) 
+Reads the dictionary, calculates the frequency of each letter, and assigns a rarity score (1-10), outputting the result to a new file.
 
 Example:
-
-
 ./bin/cantidad_letras ./data/diccionario.txt ./data/letras.txt salida.txt
-Academic Context & AI Disclosure
+# Academic Context & AI Disclosure
 This project was developed during the 2nd year of the Double Degree in Computer Engineering & Mathematics at the University of Granada (UGR).
 
-#Transparency note: In alignment with open-source best practices and academic integrity guidelines, AI assistance was used strictly for generating specific randomizer helper functions (SetAleatorio and intAleatorio) and for reviewing the final code to optimize the closest-approximation heuristic. The core backtracking logic and data structure designs are original work.
+# Transparency note:
+In alignment with open-source best practices and academic integrity guidelines, AI assistance was used strictly for generating specific randomizer helper functions (SetAleatorio and intAleatorio) and for reviewing the final code to optimize the closest-approximation heuristic. The core backtracking logic and data structure designs are original work.
 
 ## Authors
 Andrés Fernández Cervell and Miguel Crespo Orti (miguelcrespoo)
