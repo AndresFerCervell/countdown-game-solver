@@ -52,13 +52,15 @@ make
 ```
 Once compiled, the executables will be located in the bin/ directory. You can run them from the root of the letras folder as follows:
 
-#### A. The Main Game (letras) Plays the Countdown letters game. Requires the dictionary file, the letters file, the number of random letters to generate, and the game mode (L for longest word, P for highest score).
+#### A. The Main Game (letras) Plays the Countdown letters game.
+Requires the dictionary file, the letters file, the number of random letters to generate, and the game mode (L for longest word, P for highest score).
 
 Example:
 ```bash
 ./bin/letras ./data/diccionario.txt ./data/letras.txt 8 L
 ```
-#### B. Dictionary Test (testdiccionario) Loads the dictionary into memory and allows querying words of a specific length or checking word existence.
+#### B. Dictionary Test (testdiccionario) 
+Loads the dictionary into memory and allows querying words of a specific length or checking word existence.
 
 Example:
 ```bash
