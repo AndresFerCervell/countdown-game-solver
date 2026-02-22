@@ -32,15 +32,15 @@ Furthermore, it is all documented in Spanish using Doxygen, and it includes a `D
 ### 1. Running the Numbers Game (Cifras)
 Since the numbers solver is contained within a single file, you can compile it directly using `g++`:
 
-```bash
-# Compile and run
+Compile and run
 g++ -std=c++11 cifras.cpp -o cifras_solver
 ./cifras_solver
-2. Running the Letters Game (Letras)
+
+### 2. Running the Letters Game (Letras)
 The letters solver uses a standard out-of-source CMake build process and includes three distinct programs. From the root of the letras directory:
 
-Bash
-# Create a build directory and compile
+
+Create a build directory and compile
 mkdir build && cd build
 cmake ..
 make
@@ -50,27 +50,27 @@ A. The Main Game (letras) Plays the Countdown letters game. Requires the diction
 
 Example:
 
-Bash
+
 ./bin/letras ./data/diccionario.txt ./data/letras.txt 8 L
 B. Dictionary Test (testdiccionario) Loads the dictionary into memory and allows querying words of a specific length or checking word existence.
 
 Example:
 
-Bash
+
 ./bin/testdiccionario ./data/diccionario.txt
 C. Letter Frequency Calculator (cantidad_letras) Reads the dictionary, calculates the frequency of each letter, and assigns a rarity score (1-10), outputting the result to a new file.
 
 Example:
 
-Bash
+
 ./bin/cantidad_letras ./data/diccionario.txt ./data/letras.txt salida.txt
 Academic Context & AI Disclosure
 This project was developed during the 2nd year of the Double Degree in Computer Engineering & Mathematics at the University of Granada (UGR).
 
-Transparency note: In alignment with open-source best practices and academic integrity guidelines, AI assistance was used strictly for generating specific randomizer helper functions (SetAleatorio and intAleatorio) and for reviewing the final code to optimize the closest-approximation heuristic. The core backtracking logic and data structure designs are original work.
+#Transparency note: In alignment with open-source best practices and academic integrity guidelines, AI assistance was used strictly for generating specific randomizer helper functions (SetAleatorio and intAleatorio) and for reviewing the final code to optimize the closest-approximation heuristic. The core backtracking logic and data structure designs are original work.
 
-Authors
+#Authors
 Andrés Fernández Cervell and Miguel Crespo Orti (miguelcrespoo)
 
-License
+#License
 This project is licensed under the MIT License.
