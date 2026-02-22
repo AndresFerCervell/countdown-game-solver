@@ -33,7 +33,11 @@ Furthermore, it is all documented in Spanish using Doxygen, and it includes a `D
 Since the numbers solver is contained within a single file, you can compile it directly using `g++`:
 
 Compile and run
+
+
 g++ -std=c++11 cifras.cpp -o cifras_solver
+
+
 ./cifras_solver
 
 ### 2. Running the Letters Game (Letras)
@@ -41,9 +45,14 @@ The letters solver uses a standard out-of-source CMake build process and include
 
 
 Create a build directory and compile
+
+
 mkdir build && cd build
+
 cmake ..
+
 make
+
 Once compiled, the executables will be located in the bin/ directory. You can run them from the root of the letras folder as follows:
 
 #### A. The Main Game (letras) Plays the Countdown letters game. Requires the dictionary file, the letters file, the number of random letters to generate, and the game mode (L for longest word, P for highest score).
@@ -63,6 +72,8 @@ Example:
 Reads the dictionary, calculates the frequency of each letter, and assigns a rarity score (1-10), outputting the result to a new file.
 
 Example:
+
+
 ./bin/cantidad_letras ./data/diccionario.txt ./data/letras.txt salida.txt
 # Academic Context & AI Disclosure
 This project was developed during the 2nd year of the Double Degree in Computer Engineering & Mathematics at the University of Granada (UGR).
