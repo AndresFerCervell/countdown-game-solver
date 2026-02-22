@@ -34,11 +34,10 @@ Since the numbers solver is contained within a single file, you can compile it d
 
 Compile and run
 
-
+```bash
 g++ -std=c++11 cifras.cpp -o cifras_solver
-
-
 ./cifras_solver
+```
 
 ### 2. Running the Letters Game (Letras)
 The letters solver uses a standard out-of-source CMake build process and includes three distinct programs. From the root of the letras directory:
@@ -46,35 +45,34 @@ The letters solver uses a standard out-of-source CMake build process and include
 
 Create a build directory and compile
 
-
+```bash
 mkdir build && cd build
-
 cmake ..
-
 make
-
+```
 Once compiled, the executables will be located in the bin/ directory. You can run them from the root of the letras folder as follows:
 
 #### A. The Main Game (letras) Plays the Countdown letters game. Requires the dictionary file, the letters file, the number of random letters to generate, and the game mode (L for longest word, P for highest score).
 
 Example:
-
-
+```bash
 ./bin/letras ./data/diccionario.txt ./data/letras.txt 8 L
+```
 #### B. Dictionary Test (testdiccionario) Loads the dictionary into memory and allows querying words of a specific length or checking word existence.
 
 Example:
-
-
+```bash
 ./bin/testdiccionario ./data/diccionario.txt
+```
 
 #### C. Letter Frequency Calculator (cantidad_letras) 
 Reads the dictionary, calculates the frequency of each letter, and assigns a rarity score (1-10), outputting the result to a new file.
 
 Example:
-
-
+```bash
 ./bin/cantidad_letras ./data/diccionario.txt ./data/letras.txt salida.txt
+```
+
 ## Academic Context & AI Disclosure
 This project was developed during the 2nd year of the Double Degree in Computer Engineering & Mathematics at the University of Granada (UGR).
 
