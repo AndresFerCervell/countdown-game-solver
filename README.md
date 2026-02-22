@@ -37,7 +37,6 @@
 ### 1. Running the Numbers Game (Cifras)
 Since the numbers solver is contained within a single file, you can compile it directly using `g++`:
 
-```bash
 # Navigate to the project folder 
 g++ -std=c++11 cifras.cpp -o cifras_solver
 ./cifras_solver
