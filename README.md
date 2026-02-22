@@ -69,8 +69,8 @@ This project was developed during the 2nd year of the Double Degree in Computer 
 
 #Transparency note: In alignment with open-source best practices and academic integrity guidelines, AI assistance was used strictly for generating specific randomizer helper functions (SetAleatorio and intAleatorio) and for reviewing the final code to optimize the closest-approximation heuristic. The core backtracking logic and data structure designs are original work.
 
-#Authors
+## Authors
 Andrés Fernández Cervell and Miguel Crespo Orti (miguelcrespoo)
 
-#License
+## License
 This project is licensed under the MIT License.
