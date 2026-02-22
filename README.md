@@ -75,10 +75,10 @@ Example:
 
 
 ./bin/cantidad_letras ./data/diccionario.txt ./data/letras.txt salida.txt
-# Academic Context & AI Disclosure
+## Academic Context & AI Disclosure
 This project was developed during the 2nd year of the Double Degree in Computer Engineering & Mathematics at the University of Granada (UGR).
 
-# Transparency note:
+## Transparency note:
 In alignment with open-source best practices and academic integrity guidelines, AI assistance was used strictly for generating specific randomizer helper functions (SetAleatorio and intAleatorio) and for reviewing the final code to optimize the closest-approximation heuristic. The core backtracking logic and data structure designs are original work.
 
 ## Authors
